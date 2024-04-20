@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f529877c-af99-4383-925a-31258e26a44f" name="Changes" comment=" ser deser man">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/car/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/car/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/frolov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/Main.java" afterDir="false" />
+    <list default="true" id="f529877c-af99-4383-925a-31258e26a44f" name="Changes" comment="car with engine and wheel">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/frolov/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/frolov/car/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/car/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/frolov/car/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/car/Wheel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -52,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713616275447</updated>
-      <workItem from="1713616276453" duration="5877000" />
+      <workItem from="1713616276453" duration="6178000" />
     </task>
     <task id="LOCAL-00001" summary="ser">
       <created>1713619355846</created>
@@ -75,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713623090413</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="car with engine and wheel">
+      <created>1713624026277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713624026277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +90,7 @@
     <MESSAGE value="ser" />
     <MESSAGE value="deser" />
     <MESSAGE value=" ser deser man" />
-    <option name="LAST_COMMIT_MESSAGE" value=" ser deser man" />
+    <MESSAGE value="car with engine and wheel" />
+    <option name="LAST_COMMIT_MESSAGE" value="car with engine and wheel" />
   </component>
 </project>

@@ -6,8 +6,8 @@ public class Car implements Serializable {
 
     private static final long serialVersionUID = 3l;
 
-    private Engine engine;
-    private Wheel aWhile;
+    private transient Engine engine;
+    private transient Wheel aWhile;
 
     public Car(Engine engine, Wheel aWhile) {
         this.engine = engine;
