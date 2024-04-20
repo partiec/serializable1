@@ -1,5 +1,9 @@
 package ru.frolov;
 
+import ru.frolov.car.Car;
+import ru.frolov.car.Engine;
+import ru.frolov.car.Wheel;
+
 import java.io.*;
 
 public class Main {
@@ -49,6 +53,28 @@ public class Main {
         System.out.println();
         System.out.println(man);
 
+        System.out.println("=================================================================");
+        System.out.println();
+        //Car---------------------------------
+        Car car = new Car(new Engine(), new Wheel());
+
+        FileOutputStream fOutCar = new FileOutputStream("C:\\Users\\User-PC\\aTest\\carSer.ser");
+        ObjectOutputStream oOutCar = new ObjectOutputStream(fOutCar);
+        System.out.println("=============================");
+        System.out.println();
+        System.out.println(car);
+
+        oOutCar.writeObject(car);
+        oOutCar.close();
+
+        System.out.println();
+        System.out.println();
+
+        FileInputStream fCarInp = new FileInputStream("C:\\Users\\User-PC\\aTest\\carSer.ser");
+        ObjectInputStream oCarInp = new ObjectInputStream(fCarInp);
+
+        Car carDeser = (Car) oCarInp.readObject();
+        System.out.println(carDeser);
 
     }
 }
