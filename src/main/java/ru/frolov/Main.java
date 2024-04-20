@@ -16,6 +16,7 @@ public class Main {
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
 
         objectOutputStream.writeObject(savedGame);
+        objectOutputStream.close();
 
         System.out.println();
         System.out.println();
@@ -24,7 +25,30 @@ public class Main {
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
         Object resultObject = objectInputStream.readObject();
+        objectInputStream.close();
         System.out.println(resultObject);
+
+        System.out.println("=================================================================");
+        System.out.println();
+        //Man---------------------------------
+        Man man = new Man("Vasia", 44);
+
+        FileOutputStream fos = new FileOutputStream("C:\\Users\\User-PC\\aTest\\forMan.ser");
+        ObjectOutputStream oos = new ObjectOutputStream(fos);
+        System.out.println(man);
+
+        oos.writeObject(man);
+        oos.close();
+
+        FileInputStream fis = new FileInputStream("C:\\Users\\User-PC\\aTest\\forMan.ser");
+        ObjectInputStream ois = new ObjectInputStream(fis);
+
+        Man deserMan = (Man) ois.readObject();
+        ois.close();
+
+        System.out.println();
+        System.out.println(man);
+
 
     }
 }

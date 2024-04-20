@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f529877c-af99-4383-925a-31258e26a44f" name="Changes" comment="ser">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f529877c-af99-4383-925a-31258e26a44f" name="Changes" comment="deser">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/Man.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/frolov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/frolov/SavedGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/frolov/SavedGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713616275447</updated>
-      <workItem from="1713616276453" duration="4430000" />
+      <workItem from="1713616276453" duration="4905000" />
     </task>
     <task id="LOCAL-00001" summary="ser">
       <created>1713619355846</created>
@@ -60,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713619355846</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deser">
+      <created>1713622495833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713622495833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,6 +74,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ser" />
-    <option name="LAST_COMMIT_MESSAGE" value="ser" />
+    <MESSAGE value="deser" />
+    <option name="LAST_COMMIT_MESSAGE" value="deser" />
   </component>
 </project>
