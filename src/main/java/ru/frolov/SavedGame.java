@@ -43,10 +43,10 @@ public class SavedGame implements Serializable {
 
     @Override
     public String toString() {
-        return "SavedGame{" +
-                "territoriesInfo=" + Arrays.toString(territoriesInfo) +
-                ", resourcesInfo=" + Arrays.toString(resourcesInfo) +
-                ", diplomacyInfo=" + Arrays.toString(diplomacyInfo) +
+        return "SavedGame{\n" +
+                "\tterritoriesInfo=" + Arrays.toString(territoriesInfo) + ",\n" +
+                "\tresourcesInfo=" + Arrays.toString(resourcesInfo) + ",\n" +
+                "\tdiplomacyInfo=" + Arrays.toString(diplomacyInfo) +
                 '}';
     }
 }
